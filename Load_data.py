@@ -12,7 +12,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import warnings
 warnings.filterwarnings("ignore")
 
-path = '/content/drive/MyDrive/data'
+path = './content/drive/MyDrive/data'
 
 
 def Fashion_MV():
