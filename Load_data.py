@@ -232,6 +232,7 @@ def BDGP():
 
 def load_data_conv(dataset):
     print("load:", dataset)
+    print(path)
     if dataset == 'Fashion_MV':                   # Fashion-10K-3views
         return Fashion_MV()
     elif dataset == 'MNIST_USPS':                 # MNIST-USPS
