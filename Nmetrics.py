@@ -25,5 +25,5 @@ def acc(y_true, y_pred):
         w[y_pred[i], y_true[i]] += 1
     from scipy.optimize import linear_sum_assignment as linear_assignment
     row_ind, col_ind = linear_assignment(w.max() - w)
-    print(ind)
+    print(zip(row_ind, col_ind))
     return sum([w[i, j] for i, j in zip(row_ind, col_ind)]) * 1.0 / y_pred.size
