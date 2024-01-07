@@ -135,7 +135,7 @@ if __name__ == "__main__":
 
     parser.add_argument('--dataset', default=data,
                         help="Dataset name to train on")
-    PATH = '/content/drive/MyDrive/results'
+    PATH = '/content/drive/MyDrive/results/'
     path = PATH + data
     if Train_ae:
         load = None
