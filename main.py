@@ -108,7 +108,7 @@ if __name__ == "__main__":
     # 'BDGP'           # 2 views,  5 clusters,  2500 examples
     # 'Caltech101_20'  # 6 views, 20 clusters,  2386 examples
     # -------------------------------------------------------
-    data = 'MNIST_USPS'
+    data = 'Caltech101_20'
     TEST = True        # Test the clustering performance of the trained models
     # TEST = False
     # Train_ae = True  # The stability of AE’s pre-training and K-means might be the bottleneck for AE/K-means based MVC
